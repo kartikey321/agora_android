@@ -10,7 +10,7 @@ import io.agora.rtc.Constants
 class MainActivity : AppCompatActivity() {
     @OptIn(ExperimentalUnsignedTypes::class)
     var agView: AgoraVideoViewer?=null
-    var appId:String?="f9f5237847ae49a29bf1c26af1b71ae2"
+    var appId:String?=""
     var token:String?="006f9f5237847ae49a29bf1c26af1b71ae2IACrRiDpaoc1SPwNfLhMmwC14UsnYbRlV7MlUJfCRxzkWSIEJbwAAAAAEAAJmhJvqvlGYgEAAQCq+UZi"
 
     override fun onCreate(savedInstanceState: Bundle?) {
